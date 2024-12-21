@@ -1,1 +1,197 @@
+/*========================== 
+@ NAMA  : Artikel
+@ DOCS  : Css
+@ STYLE : Blog Post
+===========================*/
+.frasa-language,
+.frasa-content {
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+/* Div class aksesoris
+------------------------------*/
+.item-view .post .post-body > .mini_top_size {
+  left: 0;
+  width: none;
+  height: 20px;
+  font-size: 12px;
+  color: #000000;
+  position: relative;
+  font-weight: bold;
+  margin-top: -21px;
+  margin-left: 23px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.item-view .post .post-title-container > .post-title {
+  opacity: 0.9;
+  line-height: 1.6;
+  font-weight: bold;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.post .post-body {
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+
+
+
+.item-view .post-body > ol li,
+.item-view .post-body > ul li {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.item-view .post-body  p {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.item-view .post-body > .all a[target=_blank]::after,
+.post-body p a[target=_blank]::after{
+  content: "\f08e";
+  font-family: FontAwesome;
+  margin-left: 3px;
+  position: relative;
+}
+.all code,
+.item-view .post-body ol.code li code,
+.item-view .post-body ul.code li code,
+.item-view .post-body p code {
+  color: #660066;
+  font-size: 14px;
+  padding: 2px 2px;
+  border-radius: 2px;
+  background: #CFDBEA;
+  box-sizing: border-box;
+  font-family: 'Monospace', sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+/*=== Tag hr ===*/
+.item-view .post-body hr {
+  width: 100%;
+  border: 1px #aeaafe solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  } 
+
+/*=== Tag Img ===*/
+.item-view .post .post-body img {
+  border-radius: 5px;
+  } 
+
+
+
+
+/* Post Font Family 
+---------------------------------------------------*/
+.blog-name .header-widget div h1 {
+  font-family: 'Lato' , sans-serif;
+  }
+
+h3.entry-title a {
+  color: #191919;
+  }
+
+.post-outer-container .snippet-thumbnail img {
+  border-radius: 5px;
+  }
+
+  
+  
+ /* H1 to H6 
+------------------------------*/ 
+.item-view .post-body  h1, 
+.item-view .post-body  h2, 
+.item-view .post-body  h3, 
+.item-view .post-body  h4, 
+.item-view .post-body  h5, 
+.item-view .post-body  h6 {
+  font-weight: 400;
+  margin-bottom: -5px;
+  box-sizing: border-box;
+  } 
+
+.item-view .post-body  h1 {
+  font-size: 64px;
+  color: #191919;
+  line-height: 1.40em;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.item-view .post-body  h2 {
+  font-size: 48px;
+  color: #191919;
+  line-height: 1.30em;
+  font-family: 'Source Sans Pro', sans-serif;
+ }
+ .item-view .post-body  h3 {
+  font-size: 40px;
+  color: #191919;
+  line-height: 1.20em;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.item-view .post-body  h4 {
+  font-size: 32px;
+  color: #191919;
+  line-height: 1.10em;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.item-view .post-body  h5 {
+  font-size: 24px;
+  color: #191919;
+  line-height: 1.00em;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.item-view .post-body  h6 {
+  font-size: 20px;
+  color: #191919;
+  line-height: 0.90em;
+  font-family: 'Source Sans Pro', sans-serif;
+  } 
+  
+/* H1 to H6 Tag Code 
+----------------------------*/
+ .item-view .post-body  h1 code {
+  background:#767eeb;
+  color:#fff;
+  box-sizing: border-box;
+  padding: 4px 4px;
+  border-radius: 5px;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  }
+
+.item-view .post-body  h2 code {
+  background:#767eeb;
+  color:#fff;
+  box-sizing: border-box;
+  padding: 3px 3px;
+  border-radius: 5px;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  }
+
+.item-view .post-body > h3 code {
+  box-sizing: border-box;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;    
+  letter-spacing: -0.05rem; 
+  opacity: 0.3;
+  }
+.item-view .post-body > h5 code {
+  box-sizing: border-box;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;    
+  letter-spacing: -0.05rem; 
+  opacity: 0.3;
+  }
 
