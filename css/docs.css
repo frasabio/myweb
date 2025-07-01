@@ -212,7 +212,7 @@ body #blog-pager {
     display: block;
     position: fixed;
     background: #fff;
-    border-radius: 50%;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 0px 0px 5px rgba(0,0,0,0.6); 
     & a {
@@ -240,14 +240,12 @@ body #blog-pager {
   }
   & .mobile-desktop-link {
     & a {
-      --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjndIWoFZyB0ch6gjk67HUCCfLh-ZZaDDYo_iauAhcoN4CPUHIvU0i4c_XDEGhsgb1p3jhHA-PE_WGYdzShpiHHPloaCfrFuibwZgvBfU326YZEslFaSNyfhYwMFe2ciwkwMtDJH_8dwQ2JsAFQnU0Afz2oMh0OnQPu_pxTeckNGj_6LsHfikK_uH0aiYk/s1600/mode-dekstop.png);
-      background-image: var(--img);
+     
     }
   }
   & .blog-mobile-link {
     & a {
-      --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu1EkKgg7ficp4otcrupvkBt1EUYnG84d1w7_ljObG_HJj5GlDYw7FUCmdcftUBd-7R3i40X3oEsnbm3vZa399E9yfwI5N6eZq_UijChCRjHlig2bbq213lmG04a_HO4pFstHm_oX0TZWBUe3K25PUpR86yGYPMFJYAOTAWYclAHYEPddgK5TszrErglU/s1600/mode-mobile.png);
-      background-image: var(--img);
+     
     }
   }
 }
