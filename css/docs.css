@@ -111,7 +111,91 @@ body .post .post-body  {
 }
  
 
-
+/*==================================
+ Top List
+==================================*/
+.mobile .top-list {
+  margin: 0px 0px;
+}
+.top-list {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color-card);
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-radius: var(--size-radius-default);
+  & .post-list-click {
+      width: 105px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    & button {
+      width: 30px;
+      height: 30px;
+      border: 0.5px #616185 solid;
+      background: var(--bg-color-view);
+      border-radius: 2.5px;
+      margin: 0 auto 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+    & svg {
+      width: 20px;
+      height: 20px;
+      fill: none;
+    }
+  }
+  & .post-list-user {
+    & .user {
+  --size: 40px;
+  height: var(--size);
+      width: var(--size);
+      min-height: var(--size);
+      min-width: var(--size);
+      border: 0.5px #616185 solid;
+      background: var(--bg-color-view);
+      border-radius: 50%;
+      margin: 0 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9kSyk8d0RwX60gWe8BUhSmpIDOapzCgjEYBOtVoJ37g0qozLxR78OBXHeoK3TuQbzhEn8Za3Cx4cNTdttU4O7uiSsUz6OG5S7GYgDpPRy1WO-UoVLzv9q5gSG77uYZS_-izdPOqwN9u4tmFe217S0agQGKPEJP3kEFRMu_QUViyceibPAFNggraRmjcE/s1600/1744154246162.png);
+      background-image: var(--img);
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+  
+  }
+  }
+  & .post-list-widget {
+      & button {
+      width: 30px;
+      height: 30px;
+      border: 0.5px #616185 solid;
+      background: var(--bg-color-view);
+      border-radius: 2.5px;
+      margin: 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    & svg {
+      width: 20px;
+      height: 20px;
+    }
+   }
+  }
+}
+.mobile .top-list {
+  & .post-list-user {
+    & .user {
+    display: flex;
+    }
+  }
+}
 
 
 /*==================================
