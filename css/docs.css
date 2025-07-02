@@ -214,17 +214,15 @@ body #blog-pager {
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0px 0px 5px rgba(0,0,0,0.6); 
     & a {
       --size: 45px;
-      --radius: 50%;
+      --radius: 5px;
       padding: 0;
       font-size: 0em;
       height: var(--size);
       width: var(--size);
       min-height: var(--size);
       min-width: var(--size);
-      border-radius: calc(var(--radius) * 0.5);
       display: flex;
       align-items: center;
       justify-content: center;
