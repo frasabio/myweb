@@ -206,12 +206,11 @@ body #blog-pager {
   & .blog-mobile-link {
     width: 45px;
     height: 45px;
-    bottom: 20px;
     padding: 0;
     z-index: 100;
     display: block;
     position: fixed;
-    background: #fff;
+    background: #ffffff;
     border-radius: 5px;
     overflow: hidden;
     & a {
