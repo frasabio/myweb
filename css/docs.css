@@ -20,8 +20,7 @@ body .post .post-body  {
   grid-template-columns: 1fr 2fr;
   gap: 5px;
   /*background-color: #f0f0fc;*/
-  background: linear-gradient(60deg, rgba(78, 78, 221,1) 5%, rgba(133,133,255,1) 95%);
-  padding: 5px 10px;
+  padding: 10px 10px;
   & .widget-content select {
     outline: none;
     margin: 0;
@@ -80,12 +79,12 @@ body .post .post-body  {
    width: auto;
    height: 40px;
    line-height: 3;
-  border: 0.5px #fff solid;
+   border: 0.5px #fff solid;
    background: #5c6664;
    overflow: hidden;
    border-radius: .25em;
-   margin: 0px;
-  padding: 0px;
+   margin: 5px 0px;
+   padding: 0px;
   
 }
 
