@@ -535,3 +535,17 @@ body #blog-pager {
     box-sizing: border-box;
    }
  }
+body #blog-pager {
+  & .mobile-desktop-link,
+  & .blog-mobile-link {
+    box-shadow: 2px 2px 3px #999;
+    }
+  & .mobile-desktop-link {
+    left: 10px;
+    bottom: 80px;
+    }
+  & .blog-mobile-link {
+    margin-left: 10px;
+    bottom: 80px;
+  }
+}
