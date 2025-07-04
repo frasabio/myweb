@@ -367,7 +367,7 @@ header + div.tabs-outer {
   align-items: center;
   justify-content: space-between;
   background: var(--bg-color-card);
-  margin: 0px 10px;
+  margin: 8px 10px;
   padding: 5px 10px;
   border-radius: var(--size-radius-default);
   & .post-list-click {
