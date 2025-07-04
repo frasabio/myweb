@@ -135,7 +135,45 @@ body .post .post-body  {
 .mobile #PageList3 .widget-content:hover::after {
    color: #ccc;
 }
- 
+
+
+/*==================================
+ Post Title
+==================================*/
+.blog-posts .date-outer .date-posts .post-outer {
+ & .post-title.entry-title {
+   color: #8A2BE2;
+   margin: 0;
+   padding: 6px 0px;
+   margin: 0 0 10px 0px;
+   padding-left: 10px;
+   font-size: 1.0em;
+   letter-spacing: 1px;
+   display: block;
+   font-weight: bold;
+   box-sizing: border-box;
+   border-left: 5px #a035de solid;
+   font-family: "Michroma", sans-serif;
+   background: rgba(242,61,221,0.2);
+   background: #bff5c0;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   top: 0px;
+   left: 15px;
+   width: calc(100% - 25px);
+   position: relative;
+   }
+}
+.mobile .blog-posts .date-outer .date-posts .post-outer {
+  & .post-title.entry-title {
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: calc(100% - 0px);
+    position: relative;
+  }
+}
+
 
 /*==================================
  Top List
