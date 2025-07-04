@@ -364,6 +364,19 @@ header + div.tabs-outer {
   }
 }
 
+.mobile .post-list-user {
+  display: flex;
+  }
+.post-list-user {
+  min-width: 60px;
+  min-height: 60px;
+  background: #fff;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0.5px #111 solid;
+  }
 .top-list {
   width: 100%;
   max-width: 900px;
