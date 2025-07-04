@@ -1,3 +1,30 @@
+:root {
+  --bg-color-card: #E6E6ff;
+  --bg-color-view: #F0F0FC;
+  
+  --text-color-link: #4e4edd;
+  --text-color-para: #111111;
+  --icon-color-view: #1C274C;
+  
+  --var-color-line: #191919;
+  --var-color-list: #767eeb;
+  
+  
+  --size-font-heading1: 3.0em;
+  --size-font-heading2: 2.6em;
+  --size-font-heading3: 2.3em;
+  --size-font-heading4: 2.1em;
+  --size-font-heading5: 1.8em;
+  --size-font-heading6: 1.5em;
+  --size-font-medium: 1.2em;
+  --size-font-default: 1.0em;
+  --size-font-smile: 0.8em;
+  --size-font-megasmile: 0.5em;
+  
+  --size-radius-default: 5px;
+ 
+}
+
 /*==================================
  Blog Pager 
 ==================================*/
