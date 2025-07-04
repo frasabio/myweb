@@ -422,3 +422,17 @@ body #blog-pager {
     background: var(--var-mode-dekstop) center center / 40px no-repeat;
   }
 }
+
+.mobile #blog-pager #blog-pager-home-link {
+   height: 30px;
+   background: #bff5c0;
+   border-radius: 2.5px;
+   & a {
+     height: 30px;
+     font-size: 1.3em;
+     background: #767eeb;
+     border-radius: 3.0px;
+     padding: 5px 0px;
+    box-sizing: border-box;
+   }
+ }
