@@ -28,6 +28,10 @@
 #navbar {
   min-height: 50px;
 }
+.mobile #Blog1 {
+  padding-bottom: 70px;
+  position: relative;
+ }
 /*==================================
  Blog Pager 
 ==================================*/
