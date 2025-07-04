@@ -37,6 +37,22 @@ body .post .post-body  {
 /*==================================
  Menu Select
 ==================================*/
+header + div.tabs-outer {
+  padding: 0px 10px;
+  margin: 0 15px 50px 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  max-height: auto;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  border: 1px #ccc solid;
+  box-shadow: 0 6px 16px 0 rgba(31,36,38,.15);
+  }
+.mobile header + div.tabs-outer {
+  padding: 0px 0px;
+  margin: 0px 10px 30px 10px;
+ }
 .mobile .tabs-outer .region-inner.tabs-inner #crosscol,
 .mobile .tabs-outer .region-inner.tabs-inner .tabs.section { 
   padding: 0;
