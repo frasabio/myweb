@@ -32,6 +32,9 @@
   padding-bottom: 70px;
   position: relative;
  }
+header .header-outer {
+  margin-bottom: 20px;
+  }
 /*==================================
  Blog Pager 
 ==================================*/
@@ -303,6 +306,59 @@ header + div.tabs-outer {
 .mobile .top-list {
   margin: 0px 0px;
 }
+.mobile .top-list {
+  margin: 8px 0px;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.mobile .post-list-linkurl {
+  display: none;
+  }
+.post-list-linkurl {
+  width: calc(100% - 170px);
+  height: 26px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 0.5px #ddd solid;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  & p {
+    font-size: 0.8em;
+    font-weight: 700;
+    & span {
+      font-weight: 400;
+      }
+    }
+  & .copy-url {
+    top: -0.5px;
+    right: -0.5px;
+    width: 26px;
+    height: 26px;
+    z-index: 5;
+    border: 0.5px #616185 solid;
+    background: var(--bg-color-view);
+    border-radius: 50%;
+    margin: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    & svg {
+      width: 18px;
+      height: 18px;
+    }
+    &:active ~ p span {
+      color: red;
+    }
+  }
+}
+
 .top-list {
   width: 100%;
   max-width: 900px;
