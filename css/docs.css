@@ -381,6 +381,7 @@ header + div.tabs-outer {
   width: 100%;
   max-width: 900px;
   height: auto;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
