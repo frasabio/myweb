@@ -255,6 +255,45 @@ header + div.tabs-outer {
 
 
 /*==================================
+ Section Fixed Box
+==================================*/
+.section-fixed-top-box  {
+  top: 0px;
+  left: 0px;
+  padding: 0px 10px;
+  z-index: 700;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background: #FFF;
+  box-sizing: border-box;
+  border-bottom: 0.5px var(--var-color-line) solid;
+  box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+   
+  }
+.section-fixed-bottom-box {
+  left: 0px;
+  bottom: 0px;
+  padding: 0px 10px;
+  z-index: 700;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  /*background: linear-gradient(60deg, rgba(78, 78, 221,1) 5%, rgba(133,133,255,1) 95%);*/
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.15), 
+              0px 4px 8px rgba(0,0,0,0.15), 
+              0px 8px 16px rgba(0,0,0,0.15), 
+              0px 16px 32px rgba(0,0,0,0.15);
+  }
+
+
+/*==================================
  Top List
 ==================================*/
 .mobile .top-list {
