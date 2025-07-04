@@ -46,7 +46,12 @@ body.mobile .post .post-body  {
   width: 100%;
   min-height: calc(100vh - 50vh);
 }
-
+.post-header,
+.post-footer,
+#comments,
+#footer-3 #Attribution1 {
+display:none;
+}
 /*==================================
  Menu Select
 ==================================*/
