@@ -552,10 +552,10 @@ body #blog-pager {
 body #blog-pager {
   & .mobile-desktop-link {
     left: 10px;
-    bottom: 80px;
+    bottom: 10px;
     }
   & .blog-mobile-link {
     margin-left: 10px;
-    bottom: 80px;
+    bottom: 10px;
   }
 }
