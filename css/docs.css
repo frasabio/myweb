@@ -458,7 +458,38 @@ header + div.tabs-outer {
     }
   }
 }
-
+.top-list {
+  & .post-list-click {
+    & .open-fullscreen,
+    & .close-fullscreen {
+    display: none;
+    }
+  }
+}
+.mobile .top-list {
+  & .post-list-click {
+    & .open-fullscreen{
+    display: flex;
+    }
+  }
+}
+.mobile .top-list {
+  & .post-list-click {
+  & .close-fullscreen {
+     display: none;
+    }
+  }
+}
+:fullscreen .mobile .top-list {
+  & .post-list-click {
+  & button.open-fullscreen {
+  display: none;
+  }
+  & button.close-fullscreen {
+  display: flex;
+  }
+ }
+}
 
 /*==================================
  Blog Pager 
