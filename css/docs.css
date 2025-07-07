@@ -131,7 +131,11 @@ body.mobile .content .post-body {
   padding-left: 0px;
   padding-right: 0px;
 }
-
+.btn:active,
+button:active {
+  transform: translateY(1.5px);
+  filter: saturate(150%);
+}
 
 /*==================================
  Blog Pager 
