@@ -10,16 +10,16 @@
   --var-color-list: #767eeb;
   
   
-  --size-font-heading1: 3.0em;
-  --size-font-heading2: 2.6em;
-  --size-font-heading3: 2.3em;
-  --size-font-heading4: 2.1em;
-  --size-font-heading5: 1.8em;
-  --size-font-heading6: 1.5em;
-  --size-font-medium: 1.2em;
+  --size-font-heading1: 1.6em;
+  --size-font-heading2: 1.5em;
+  --size-font-heading3: 1.4em;
+  --size-font-heading4: 1.3em;
+  --size-font-heading5: 1.2em;
+  --size-font-heading6: 1.1em;
   --size-font-default: 1.0em;
+  --size-font-medium: 0.9em;
   --size-font-smile: 0.8em;
-  --size-font-megasmile: 0.5em;
+  --size-font-megasmile: 0.7em;
   
   --size-radius-default: 5px;
  
