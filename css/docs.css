@@ -71,6 +71,40 @@ header .header-outer {
   margin-bottom: 20px;
   }
 
+
+body .content .post-body,
+body.mobile .content .post-body {
+  & :is(h1,h2,h3,h4,h5,h6){
+    color: var(--text-color-primary);
+    }
+  & * {
+    line-height: 1.5;
+    font-size: var(--size-font-default);
+    color: var(--text-color-primary);
+    }
+  & h1 {
+   font-size: var(--size-font-heading1);
+  }
+  & h2 {
+   font-size: var(--size-font-heading2);
+  }
+  & h3 {
+   font-size: var(--size-font-heading3);
+  }
+  & h4 {
+   font-size: var(--size-font-heading4);
+  }
+  & h5 {
+   font-size: var(--size-font-heading5);
+  }
+  & h6 {
+   font-size: var(--size-font-heading6);
+  }
+  & p {
+    line-height: 1.7;
+   font-size: var(--size-font-default);
+  }
+}
 /*==================================
  Component Css
 ==================================*/
