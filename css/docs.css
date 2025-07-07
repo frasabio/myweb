@@ -77,12 +77,12 @@ display:none;
 ==================================*/
 #header {
   padding: 0px 15px;
-  padding-top: 50px;
+  padding-top: 0px;
   box-sizing: border-box;
   }
 .mobile #header {
   padding: 0px 15px;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 #header-inner {
   padding-left: 35px;
