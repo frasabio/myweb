@@ -1,15 +1,29 @@
 :root {
+  /* Latar Color */
   --bg-color-card: #E6E6ff;
   --bg-color-view: #F0F0FC;
   
-  --text-color-link: #4e4edd;
+  /* Text Color */
   --text-color-default: #1C274C;
+  --text-color-primary: #1C274C;
+  --text-color-link: #4e4edd;
+
+  /* Icon Color */
   --icon-color-view: #1C274C;
+
+  /* Icon Color */
+  --btn-color-default: #fcfcfc;
+  --btn-color-primary: #767eeb;
+
+  /* Line Color */
+  --line-color-default: #191919;
+  --line-color-primary: #767eeb;
   
+  /* Var Color */
   --var-color-line: #191919;
   --var-color-list: #767eeb;
   
-  
+  /* Text Size */
   --size-font-heading1: 1.6em;
   --size-font-heading2: 1.5em;
   --size-font-heading3: 1.4em;
@@ -20,7 +34,8 @@
   --size-font-medium: 0.9em;
   --size-font-smile: 0.8em;
   --size-font-megasmile: 0.7em;
-  
+
+  /* Raduis Size */
   --size-radius-default: 5px;
  
 }
