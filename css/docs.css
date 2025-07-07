@@ -28,6 +28,26 @@
 #navbar {
   min-height: 50px;
 }
+body.mobile {
+  width: 100%;
+  max-width; 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+  & .content {
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.5px #111 solid;   
+    }
+  @media (max-width: 640px) {
+    & .content {
+    border-radius: 0px;
+    border: 0.0px #111 solid;
+    }
+   }
+}
 .mobile #Blog1 {
   padding-bottom: 70px;
   position: relative;
