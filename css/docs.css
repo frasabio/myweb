@@ -390,7 +390,7 @@ header + div.tabs-outer {
   padding: 5px 10px;
   border-radius: var(--size-radius-default);
   & .post-list-click {
-      width: 105px;
+      width: 140px;
       display: flex;
       align-items: center;
       justify-content: start;
