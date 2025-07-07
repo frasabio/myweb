@@ -79,6 +79,7 @@ body.mobile .content .post-body {
     }
   & * {
     line-height: 1.5;
+    font-family: "Titillium Web", sans-serif;
     font-size: var(--size-font-default);
     color: var(--text-color-primary);
     }
