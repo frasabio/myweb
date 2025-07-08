@@ -199,7 +199,7 @@ display:none;
      letter-spacing: 0.2em;
      word-spacing: 0.2em;
      font-family: var(--font-mic);
-      background: -webkit-linear-gradient(right, #4e4edd 76%, #ff00ff 16%);  
+      background: -webkit-linear-gradient(right, #4e4edd 76%, #990099 16%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     }
