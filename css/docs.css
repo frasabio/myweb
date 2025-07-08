@@ -494,7 +494,7 @@ header + div.tabs-outer {
   }
 .top-list {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   height: auto;
   overflow: hidden;
   display: flex;
