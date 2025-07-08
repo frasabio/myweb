@@ -241,7 +241,7 @@ header + div.tabs-outer {
   margin-bottom: 10px;
   border-radius: 10px;
   max-height: auto;
-  background: #bff5c0;
+ /* background: #bff5c0;*/
   position: relative;
   overflow: hidden;
   border: 3px #9bfa9d solid;
