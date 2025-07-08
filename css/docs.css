@@ -225,7 +225,7 @@ display:none;
 }
 .mobile #header-inner {
   padding-left: 5px;
-  border-left: 5px #bff5c0 solid;
+  border-left: 5px #7474dd solid;
   box-sizing: border-box;
   & .titlewrapper {  
     & h1.title {
