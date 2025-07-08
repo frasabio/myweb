@@ -490,7 +490,7 @@ header + div.tabs-outer {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 0.5px #111 solid;
+  border: 0.5px #3D5AFE solid;
   }
 .top-list {
   width: 100%;
@@ -528,12 +528,12 @@ header + div.tabs-outer {
   }
   & .post-list-user {
     & .user {
-  --size: 40px;
-  height: var(--size);
+      --size: 40px;
+      height: var(--size);
       width: var(--size);
       min-height: var(--size);
       min-width: var(--size);
-      border: 0.5px #616185 solid;
+      border: 0.5px #3D5AFE solid;
       background: var(--bg-color-view);
       border-radius: 50%;
       margin: 0 0;
