@@ -612,10 +612,10 @@ header + div.tabs-outer {
 body #blog-pager {
   & .mobile-desktop-link,
   & .blog-mobile-link {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     padding: 0;
-    z-index: 100;
+    z-index: 50;
     display: block;
     position: fixed;
     border-radius: 5px;
@@ -626,7 +626,7 @@ body #blog-pager {
       background-color: rgba(61,90,254,0.9);
     }
     & a {
-      --size: 45px;
+      --size: 40px;
       --radius: 5px;
       padding: 0;
       font-size: 0em;
@@ -654,20 +654,20 @@ body #blog-pager {
       --var-mode-mobile-hover: url("data:image/svg+xml,%3Csvg fill='%23d3f5f0' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' %3E%3Cg id='Desktop'%3E%3Cpath d='M18.435,3.065H5.565a2.5,2.5,0,0,0-2.5,2.5v8.87a2.5,2.5,0,0,0,2.5,2.5h2.91l-.37,3H7a.5.5,0,0,0,0,1h10.01a.5.5,0,0,0,0-1H15.9l-.37-3h2.91a2.5,2.5,0,0,0,2.5-2.5V5.565A2.5,2.5,0,0,0,18.435,3.065Zm-9.33,16.87.38-3h5.03l.37,3Zm10.83-5.5a1.5,1.5,0,0,1-1.5,1.5H5.565a1.5,1.5,0,0,1-1.5-1.5v-.5h15.87Zm0-1.5H4.065V5.565a1.5,1.5,0,0,1,1.5-1.5h12.87a1.5,1.5,0,0,1,1.5,1.5Z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
       &::before {
     content:'';
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: block;
     z-index: 1;
     margin: 0px;
     position: absolute;
     border-radius: 5px;
-    background: var(--var-mode-mobile) center center / 40px no-repeat;
+    background: var(--var-mode-mobile) center center / 30px no-repeat;
     }
     }
     &:hover {
       & a {
         &:before {
-          background: var(--var-mode-mobile-hover) center center / 40px no-repeat;
+          background: var(--var-mode-mobile-hover) center center / 30px no-repeat;
         }
       }
     }
@@ -679,22 +679,22 @@ body #blog-pager {
       --var-mode-dekstop-hover: url("data:image/svg+xml,%3Csvg fill='%23d3f5f0' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'  %3E%3Cg id='Mobile'%3E%3Cpath d='M16.73,2.065H7.27a2.386,2.386,0,0,0-2.24,2.5v14.87a2.386,2.386,0,0,0,2.24,2.5h9.46a2.386,2.386,0,0,0,2.24-2.5V4.565A2.386,2.386,0,0,0,16.73,2.065Zm1.24,17.37a1.391,1.391,0,0,1-1.24,1.5H7.27a1.391,1.391,0,0,1-1.24-1.5V4.565a1.391,1.391,0,0,1,1.24-1.5H8.8v.51a1,1,0,0,0,1,1h4.4a1,1,0,0,0,1-1v-.51h1.53a1.391,1.391,0,0,1,1.24,1.5Z'%3E%3C/path%3E%3Cpath d='M10,18.934h4a.5.5,0,0,0,0-1H10a.5.5,0,0,0,0,1Z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
       &::before {
         content:'';
-        width: 50px;
-        height: 50px;
-        min-width: 50px;
-        min-height: 50px;
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
         display: block;
         z-index: 2;
         margin: 0px;
         position: absolute;
         border-radius: 5px;
-        background: var(--var-mode-dekstop) center center / 40px no-repeat;
+        background: var(--var-mode-dekstop) center center / 30px no-repeat;
       }
     }
     &:hover {
       & a {
         &:before {
-          background: var(--var-mode-dekstop-hover) center center / 40px no-repeat;
+          background: var(--var-mode-dekstop-hover) center center / 30px no-repeat;
         }
       }
     }
@@ -702,11 +702,11 @@ body #blog-pager {
 }
 
 .mobile #blog-pager #blog-pager-home-link {
-   height: 30px;
+   height: 40px;
    background: #bff5c0;
    border-radius: 2.5px;
    & a {
-     height: 30px;
+     height: 40px;
      font-size: 1.3em;
      background: #767eeb;
      border-radius: 3.0px;
