@@ -190,13 +190,15 @@ display:none;
   box-sizing: border-box;
   & .titlewrapper {
     & h1.title {
-     color: #fff;
+    /* color: #fff;*/
      margin: 0;
      padding: 0px;
      width: 420px;
      min-width: 420px;
      font-weight: 700;
-     font-family: "Michroma", sans-serif;
+     letter-spacing: 0.2em;
+     word-spacing: 0.2em;
+     font-family: var(--font-mic);
       background: -webkit-linear-gradient(right, #4e4edd 76%, #ff00ff 16%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -226,8 +228,8 @@ display:none;
   box-sizing: border-box;
   & .titlewrapper {  
     & h1.title {
-      width: 160px;
-      min-width: 160px;
+      width: 200px;
+      min-width: 200px;
       font-size: var(--font-size-medium);
       font-weight: bold;
     }
