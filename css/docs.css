@@ -437,7 +437,7 @@ header + div.tabs-outer {
   display: none;
   }
 .post-list-linkurl {
-  width: calc(100% - 170px);
+  width: calc(100% - 205px);
   height: 26px;
   padding: 0px 10px;
   display: flex;
