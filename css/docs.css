@@ -12,7 +12,8 @@
   --text-color-default: #1C274C;
   --text-color-primary: #1C274C;
   --text-color-link: #4e4edd;
-
+  --font-color-default: #1C274C;
+  --font-color-title: #434DED;
   /* Icon Color */
   --icon-color-view: #1C274C;
 
@@ -244,7 +245,7 @@ header + div.tabs-outer {
  /* background: #bff5c0;*/
   position: relative;
   overflow: hidden;
-  border: 3px #9bfa9d solid;
+  border: 3px #EEEFFF solid;
   }
 .mobile header + div.tabs-outer {
   padding: 0px 0px;
@@ -297,11 +298,11 @@ header + div.tabs-outer {
    outline:0;
    box-shadow:none;
    border: 0px #111 solid;
-   background: #CDCDFF;
+   background-color: #eeffff;
    background-image: none;
    flex: 1;
    padding: 0 0.5em;
-   color:#4e4edd;
+   color: var(--font-color-title);
    cursor:pointer;
    font-size: 1.1em;
    font-family: 'Open Sans', sans-serif;
@@ -319,7 +320,7 @@ header + div.tabs-outer {
    width: auto;
    height: 40px;
    line-height: 3;
-   border: 0.5px #fff solid;
+   border: 0.5px #eeffff solid;
    background: #5c6664;
    overflow: hidden;
    border-radius: .25em;
@@ -336,9 +337,9 @@ header + div.tabs-outer {
   z-index: 10;
    top: 0;
    right: 0;
-   color: #fff;
+   color: #eeffff;
    padding: 0px 10px;
-   background: #4e4edd;
+   background: #767EEB;
    cursor:pointer;
    pointer-events:none;
    transition:.25s all ease;
@@ -355,7 +356,7 @@ header + div.tabs-outer {
 ==================================*/
 .blog-posts .date-outer .date-posts .post-outer {
  & .post-title.entry-title {
-   color: #8A2BE2;
+   color: #434DED;
    margin: 0;
    padding: 6px 0px;
    margin: 0 0 10px 0px;
@@ -365,8 +366,8 @@ header + div.tabs-outer {
    display: block;
    font-weight: bold;
    box-sizing: border-box;
-   border-left: 5px #a035de solid;
-   font-family: "Michroma", sans-serif;
+   border-left: 5px #434DED solid;
+   font-family: var(--font-mic);
    background: rgba(242,61,221,0.2);
    background: #bff5c0;
    border-top-right-radius: 5px;
