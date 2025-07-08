@@ -199,7 +199,7 @@ display:none;
      letter-spacing: 0.2em;
      word-spacing: 0.2em;
      font-family: var(--font-mic);
-      background: -webkit-linear-gradient(right, #4e4edd 76%, #990099 16%);  
+      background: -webkit-linear-gradient(right, #434DED 76%, #FF00FF 16%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     }
@@ -215,7 +215,7 @@ display:none;
        line-height: 1.5;
        font-family: "Michroma", sans-serif;
         font-style: normal;
-        background: -webkit-linear-gradient(#4e4edd 50%, #8585FF 50%);
+        background: -webkit-linear-gradient(#4E4EDD 50%, #8585FF 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
       }
