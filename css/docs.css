@@ -22,6 +22,20 @@
   /* Var Color */
   --var-color-line: #191919;
   --var-color-list: #767eeb;
+
+    /* Text Size */
+  
+  
+  --font-size-smile: 0.8em;
+  --font-size-medium: 2.0em;
+  --font-size-default: 1.0em;
+  --font-size-heading1: 1.6em;
+  --font-size-heading2: 1.5em;
+  --font-size-heading3: 1.4em;
+  --font-size-heading4: 1.3em;
+  --font-size-heading5: 1.2em;
+  --font-size-heading6: 1.1em;
+  --font-size-megasmile: 0.7em;
   
   /* Text Size */
   --size-font-heading1: 1.6em;
@@ -40,9 +54,7 @@
  
 }
 .mobile * {margin:0;padding:0;box-sizing:border-box;}
-#navbar {
-  min-height: 65px;
-}
+body #navbar {height: 65px;min-height: 65px;max-height: 65px;}
 body.mobile {
   width: 100%;
   max-width: 100%;
@@ -53,15 +65,16 @@ body.mobile {
   position: relative;
   & .content {
     overflow: hidden;
+    margin-top: 10px;
     border-radius: 10px;
-    border: 0.5px #111 solid;   
-    }
+    border: 0.5px #ccc solid;   
+  }
   @media (max-width: 640px) {
     & .content {
-    border-radius: 0px;
-    border: 0.0px #111 solid;
+      border-radius: 0px;
+      border: 0.0px #111 solid;
     }
-   }
+  }
 }
 .mobile #Blog1 {
   padding-bottom: 70px;
@@ -80,30 +93,30 @@ body.mobile .content .post-body {
   & * {
     line-height: 1.5;
     font-family: "Titillium Web", sans-serif;
-    font-size: var(--size-font-default);
+    font-size: var(--font-size-default);
     color: var(--text-color-primary);
     }
   & h1 {
-   font-size: var(--size-font-heading1);
+   font-size: var(--font-size-heading1);
   }
   & h2 {
-   font-size: var(--size-font-heading2);
+   font-size: var(--font-size-heading2);
   }
   & h3 {
-   font-size: var(--size-font-heading3);
+   font-size: var(--font-size-heading3);
   }
   & h4 {
-   font-size: var(--size-font-heading4);
+   font-size: var(--font-size-heading4);
   }
   & h5 {
-   font-size: var(--size-font-heading5);
+   font-size: var(--font-size-heading5);
   }
   & h6 {
-   font-size: var(--size-font-heading6);
+   font-size: var(--font-size-heading6);
   }
   & p {
     line-height: 1.7;
-   font-size: var(--size-font-default);
+   font-size: var(--font-size-default);
   }
 }
 /*==================================
@@ -189,7 +202,7 @@ display:none;
       max-width: 300px;
       & span {
        color: #111;
-       font-size: 1.0em;
+       font-size: var(--font-size-default);
        font-weight: 400;
        line-height: 1.5;
        font-family: "Michroma", sans-serif;
@@ -209,7 +222,7 @@ display:none;
     & h1.title {
       width: 160px;
       min-width: 160px;
-      font-size: var(--size-font-heading4);
+      font-size: var(--font-size-medium);
       font-weight: bold;
     }
   }
@@ -220,7 +233,7 @@ header + div.tabs-outer {
   margin-bottom: 20px;
   border-radius: 10px;
   max-height: auto;
-  background: #fff;
+ /* background: #fff;*/
   position: relative;
   overflow: hidden;
   border: 1px #ccc solid;
