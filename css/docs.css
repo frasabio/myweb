@@ -1,4 +1,9 @@
 :root {
+  /* Font Type */
+  --font-mic: 'Michroma' , sans-serif;
+  --font-web: 'Titillium Web' , sans-serif;
+  --font-nun: 'Nunito' , sans-serif;
+ 
   /* Latar Color */
   --bg-color-card: #E6E6ff;
   --bg-color-view: #F0F0FC;
@@ -49,6 +54,7 @@
   --size-font-smile: 0.8em;
   --size-font-megasmile: 0.7em;
 
+  
   /* Raduis Size */
   --size-radius-default: 5px;
  
@@ -701,19 +707,56 @@ body #blog-pager {
   }
 }
 
-.mobile #blog-pager #blog-pager-home-link {
-   height: 40px;
+.mobile #blog-pager {
+  position: relative;
+  }
+.mobile #blog-pager #blog-pager-newer-link {
+  left: 15px;
+  }
+.mobile #blog-pager #blog-pager-older-link {
+  right: 15px;
+  }
+.mobile #blog-pager #blog-pager-newer-link,
+.mobile #blog-pager #blog-pager-older-link {
+   bottom: 9px;
+   width: 35px;
+   height: 35px;
    background: #bff5c0;
    border-radius: 2.5px;
+   position: absolute;
    & a {
-     height: 40px;
-     font-size: 1.3em;
-     background: #767eeb;
+     width: 35px;
+     height: 35px;
+     font-size: 2.8em;
+     background: #434DED;
      border-radius: 3.0px;
-     padding: 5px 0px;
+     padding: 7px 4px;
     box-sizing: border-box;
+    &:hover,&:focus {
+      background-color: #767EEB;
+    }
    }
  }
+.mobile #main .blog-posts .date-autor .date-header span {
+  font-size: 1px;
+  display: none;
+  }
+.mobile #blog-pager #blog-pager-home-link {
+   height: 35px;
+   border-radius: 2.5px;
+   & a {
+     height: 35px;
+     font-size: 1.5em;
+     background: #434DED;
+     border-radius: 3.0px;
+     padding: 7.5px 0px;
+    box-sizing: border-box;
+     &:hover,&:focus {
+      background-color: #767EEB;
+     }
+   }
+ }
+
 body #blog-pager {
   & .mobile-desktop-link {
     left: 10px;
