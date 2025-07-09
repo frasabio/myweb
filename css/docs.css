@@ -22,9 +22,9 @@
   --btn-color-primary: #767eeb;
 
   /* Line Color */
-  --line-color-default: #191919;
+  --line-color-default: #EEEFFF;
   --line-color-primary: #767eeb;
-  
+  --line-color-button: #434DED;
   /* Var Color */
   --var-color-line: #191919;
   --var-color-list: #767eeb;
@@ -237,15 +237,16 @@ display:none;
   }
 }
 header + div.tabs-outer {
-  padding: 0px 10px;
-  margin: 0 12px 10px 12px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  max-height: auto;
- /* background: #bff5c0;*/
+  width: auto;
+  padding: 0px 15px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 0px;
+  max-height: auto; 
+  background-color: transparent;
   position: relative;
   overflow: hidden;
-  border: 3px #EEEFFF solid;
+  border-top: 3px var(--line-color-default) solid;
+  border-bottom: 3px var(--line-color-default) solid;
   }
 .mobile header + div.tabs-outer {
   padding: 0px 0px;
