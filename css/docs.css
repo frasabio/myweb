@@ -332,22 +332,12 @@ header + div.tabs-outer {
 .mobile #PageList1 .widget-content::after,
 .mobile #PageList2 .widget-content::after,
 .mobile #PageList3 .widget-content::after {
-   content: '\25BC';
-   position: absolute;
-  z-index: 10;
-   top: 0;
-   right: 0;
-   color: #eeffff;
-   padding: 0px 10px;
-   background: #767EEB;
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
+   
 }
 .mobile #PageList1 .widget-content:hover::after,
 .mobile #PageList2 .widget-content:hover::after,
 .mobile #PageList3 .widget-content:hover::after {
-   color: #ccc;
+   background-color: #eeffff;
 }
 
 
@@ -431,19 +421,7 @@ header + div.tabs-outer {
 /*==================================
  Top List
 ==================================*/
-.mobile .top-list {
-  margin: 0px 0px;
-}
-.mobile .top-list {
-  margin: 8px 0px;
-  width: 100%;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  position: relative;
-}
-.mobile .post-list-linkurl {
-  display: none;
-  }
+
 .post-list-linkurl {
   width: calc(100% - 205px);
   height: 26px;
@@ -603,6 +581,7 @@ header + div.tabs-outer {
     }
   }
 }
+
 :fullscreen .mobile .top-list {
   & .post-list-click {
   & button.open-fullscreen {
@@ -614,6 +593,19 @@ header + div.tabs-outer {
  }
 }
 
+.mobile .top-list {
+  margin: 0px 0px;
+}
+.mobile .top-list {
+  margin: 8px 0px;
+  width: 100%;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.mobile .post-list-linkurl {
+  display: none;
+  }
 /*==================================
  Blog Pager 
 ==================================*/
