@@ -392,7 +392,7 @@ header + div.tabs-outer {
   display: flex;
   justify-content: center;
   position: fixed;
-  background: #FFF;
+  background-color: #EEFFFF;
   box-sizing: border-box;
   border-bottom: 0.5px var(--var-color-line) solid;
   box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
@@ -471,12 +471,12 @@ header + div.tabs-outer {
 .post-list-user {
   min-width: 60px;
   min-height: 60px;
-  background: #fff;
+  background: #EEFFFF;
   display: none;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 0.5px #3D5AFE solid;
+  border: 0.5px #434DED solid;
   }
 .top-list {
   width: 100%;
@@ -519,7 +519,7 @@ header + div.tabs-outer {
       width: var(--size);
       min-height: var(--size);
       min-width: var(--size);
-      border: 0.5px #3D5AFE solid;
+      border: 0.5px #434DED solid;
       background: var(--bg-color-view);
       border-radius: 50%;
       margin: 0 0;
