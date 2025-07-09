@@ -389,7 +389,7 @@ header + div.tabs-outer {
   display: flex;
   justify-content: center;
   position: fixed;
-  background-color: #EEFFFF;
+  background-color: var(--bg-color-bars);
   box-sizing: border-box;
   border-bottom: 0.5px var(--var-color-line) solid;
   box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
@@ -406,7 +406,7 @@ header + div.tabs-outer {
   justify-content: center;
   position: fixed;
   box-sizing: border-box;
-  background-color: #ffffff;
+  background-color: var(--bg-color-bars);
   /*background: linear-gradient(60deg, rgba(78, 78, 221,1) 5%, rgba(133,133,255,1) 95%);*/
   box-shadow: 0px 2px 4px rgba(0,0,0,0.15), 
               0px 4px 8px rgba(0,0,0,0.15), 
@@ -495,58 +495,59 @@ header + div.tabs-outer {
     & button {
       width: 30px;
       height: 30px;
-      border: 0.5px #616185 solid;
-      background: var(--bg-color-view);
+      min-width: 30px;
+      min-height: 30px;
       border-radius: 2.5px;
       margin: 0 auto 0 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      }
-    & svg {
-      width: 20px;
-      height: 20px;
-      fill: none;
-    }
-  }
-  & .post-list-user {
-    & .user {
-      --size: 40px;
-      height: var(--size);
-      width: var(--size);
-      min-height: var(--size);
-      min-width: var(--size);
-      border: 0.5px #434DED solid;
+      border: 0.5px var(--line-color-default) solid;
       background: var(--bg-color-view);
-      border-radius: 50%;
-      margin: 0 0;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9kSyk8d0RwX60gWe8BUhSmpIDOapzCgjEYBOtVoJ37g0qozLxR78OBXHeoK3TuQbzhEn8Za3Cx4cNTdttU4O7uiSsUz6OG5S7GYgDpPRy1WO-UoVLzv9q5gSG77uYZS_-izdPOqwN9u4tmFe217S0agQGKPEJP3kEFRMu_QUViyceibPAFNggraRmjcE/s1600/1744154246162.png);
-      background-image: var(--img);
-      background-size: cover;
-      background-repeat: no-repeat;
-      position: relative;
-  
-  }
+      }
+      & svg {
+        width: 20px;
+        height: 20px;
+        fill: none;
+      }
+    }
+    & .post-list-user {
+      & .user {
+        --size: 40px;
+        height: var(--size);
+        width: var(--size);
+        min-height: var(--size);
+        min-width: var(--size);
+        border: 0.5px #434DED solid;
+        background: var(--bg-color-view);
+        border-radius: 50%;
+        margin: 0 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        --img: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9kSyk8d0RwX60gWe8BUhSmpIDOapzCgjEYBOtVoJ37g0qozLxR78OBXHeoK3TuQbzhEn8Za3Cx4cNTdttU4O7uiSsUz6OG5S7GYgDpPRy1WO-UoVLzv9q5gSG77uYZS_-izdPOqwN9u4tmFe217S0agQGKPEJP3kEFRMu_QUViyceibPAFNggraRmjcE/s1600/1744154246162.png);
+        background-image: var(--img);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+      }
   }
   & .post-list-widget {
       & button {
       width: 30px;
       height: 30px;
-      border: 0.5px #616185 solid;
+      border: 0.5px var(--line-color-default) solid;
       background: var(--bg-color-view);
       border-radius: 2.5px;
       margin: 0 0;
       display: flex;
       align-items: center;
       justify-content: center;
-    & svg {
-      width: 20px;
-      height: 20px;
+      & svg {
+        width: 20px;
+        height: 20px;
+      }
     }
-   }
   }
 }
 .mobile .top-list {
