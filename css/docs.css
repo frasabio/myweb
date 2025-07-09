@@ -7,6 +7,7 @@
   /* Latar Color */
   --bg-color-card: #E6E6ff;
   --bg-color-view: #F0F0FC;
+  --bg-color-bars: #EEFFFF;
   
   /* Text Color */
   --text-color-default: #1C274C;
@@ -22,15 +23,10 @@
   --btn-color-primary: #767eeb;
 
   /* Line Color */
-  --line-color-default: #EEEFFF;
+  --line-color-default: #D2E9FA;
   --line-color-primary: #767eeb;
   --line-color-button: #434DED;
-  /* Var Color */
-  --var-color-line: #191919;
-  --var-color-list: #767eeb;
-
-    /* Text Size */
-  
+  /* Var Color */  
   
   --font-size-smile: 0.8em;
   --font-size-medium: 2.0em;
