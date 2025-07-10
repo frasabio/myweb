@@ -171,202 +171,21 @@ body.mobile .contenfl .post .post-body  {
 /*==================================
  Menu Select
 ==================================*/
-#header {
-  padding: 0px 15px;
-  padding-top: 0px;
-  box-sizing: border-box;
-  }
-.mobile #header {
-  padding: 0px 15px;
-  padding-top: 0px;
-}
-#header-inner {
-  padding-left: 35px;
-  box-sizing: border-box;
-  & .titlewrapper {
-    & h1.title {
-    /* color: #fff;*/
-      margin: 0;
-      padding: 0px;
-      width: 420px;
-      min-width: 420px;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      word-spacing: 0.2em;
-      font-family: var(--font-mic);
-      background: -webkit-linear-gradient(right, #434DED 76%, #FF00FF 16%);  
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-  }
-  & .descriptionwrapper {
-    & .description {
-      width: auto;
-      max-width: 300px;
-      & span {
-        color: #111;
-        font-size: var(--font-size-default);
-        font-weight: 500;
-        line-height: 1.5;
-        font-family: var(--font-web);
-        font-style: normal;
-        background: -webkit-linear-gradient(#4E4EDD 50%, #8585FF 50%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-  }
-}
-.mobile #header-inner {
-  padding-left: 5px;
-  border-left: 5px #7474dd solid;
-  box-sizing: border-box;
-  & .titlewrapper {  
-    & h1.title {
-      width: 200px;
-      min-width: 200px;
-      font-size: var(--font-size-medium);
-      font-weight: bold;
-    }
-  }
-}
-header + div.tabs-outer {
-  width: auto;
-  padding: 0px 15px;
-  margin: 0px 0px 10px 0px;
-  border-radius: 0px;
-  max-height: auto; 
-  background-color: transparent;
-  position: relative;
-  overflow: hidden;
-  border-top: 3px var(--line-color-default) solid;
-  border-bottom: 3px var(--line-color-default) solid;
-  }
-.mobile header + div.tabs-outer {
-  padding: 0px 0px;
-  margin: 0px 10px 30px 10px;
- }
-.mobile .tabs-outer .region-inner.tabs-inner #crosscol,
-.mobile .tabs-outer .region-inner.tabs-inner .tabs.section { 
-  padding: 0;
-  display: grid;
-  grid-template-areas:
-  "left left right"
-  "center center center";
-  grid-template-columns: 1fr 2fr;
-  gap: 5px;
-  /*background-color: #f0f0fc;*/
-  padding: 10px 10px;
-  & .widget-content select {
-    outline: none;
-    margin: 0;
-    }
-  }
 
-.mobile #crosscol > #PageList1 {
-  grid-area: left;}
-.mobile #crosscol > #PageList2 {
-  grid-area: right;}
-.mobile #crosscol > #PageList3 {
-  grid-area: center;}
-  #PageList1_select,
-  #PageList2_select,
-  #PageList3_select {
-    margin: 0px 0px;
-    padding: 5px;
-    box-sizing: border-box;
- }
-  
-.mobile #PageList1,
-.mobile #PageList2,
-.mobile #PageList3  {
-  padding: 0px 0px;
-}
+
+
+
+
+
  
-.mobile #PageList1 .widget-content select,
-.mobile #PageList2 .widget-content select,
-.mobile #PageList3 .widget-content select {
-   -webkit-appearance:none;
-   -moz-appearance:none;
-   -ms-appearance:none;
-   appearance:none;
-   outline:0;
-   box-shadow:none;
-   border: 0px #111 solid;
-   background-color: #eeffff;
-   background-image: none;
-   flex: 1;
-   padding: 0 0.5em;
-   color: var(--font-color-title);
-   cursor:pointer;
-   font-size: 1.1em;
-   font-family: 'Open Sans', sans-serif;
-}
-.mobile #PageList1 .widget-content select::-ms-expand,
-.mobile #PageList2 .widget-content select::-ms-expand,
-.mobile #PageList3 .widget-content select::-ms-expand {
-   display: none;
-}
-.mobile #PageList1 .widget-content,
-.mobile #PageList2 .widget-content,
-.mobile #PageList3 .widget-content {
-   position: relative;
-   display: flex;
-   width: auto;
-   height: 40px;
-   line-height: 3;
-   background: #5c6664;
-   overflow: hidden;
-   border-radius: .25em;
-   margin: 5px 0px;
-   padding: 0px;
-  
-}
 
-.mobile #PageList1 .widget-content::after,
-.mobile #PageList2 .widget-content::after,
-.mobile #PageList3 .widget-content::after {
-   
-}
-.mobile #PageList1 .widget-content:hover::after,
-.mobile #PageList2 .widget-content:hover::after,
-.mobile #PageList3 .widget-content:hover::after {
-   background-color: #eeffff;
-}
+
 
 
 /*==================================
  Post Title
 ==================================*/
-.blog-posts .date-outer .date-posts .post-outer {
- & .post-title.entry-title {
-   top: 15px;
-   left: 15px;
-   padding: 6px 0px;
-   margin: 0 0 10px 0px;
-   padding-left: 10px;
-   letter-spacing: 1px;
-   display: block;
-   position: relative;
-   font-weight: bold;
-   box-sizing: border-box;
-   width: calc(100% - 25px);
-   border-left: 5px #434DED solid;
-   font-family: var(--font-web);
-   background: #bff5c0;
-   border-top-right-radius: 2.5px;
-   border-bottom-right-radius: 2.5px;
-   font-size: var(--font-size-default);
-   }
-}
-.mobile .blog-posts .date-outer .date-posts .post-outer {
-  & .post-title.entry-title {
-    top: 0px;
-    left: 0px;
-    z-index: 100;
-    width: calc(100% - 0px);
-  }
-}
+
 
 
 /*==================================
