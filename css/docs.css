@@ -167,7 +167,7 @@ body.mobile .contenfl .post .post-body  {
 .post-header,
 .post-footer,
 #comments,
-#footer-3 t#Attribution1 {display:none;}
+#footer-3 #Attribution1 {display:none;}
 /*==================================
  Menu Select
 ==================================*/
@@ -332,7 +332,98 @@ header + div.tabs-outer {
 /*==================================
  Post Title
 ==================================*/
+#header-inner {
+  padding-left: 35px;
+  box-sizing: border-box;
+  & .titlewrapper {
+    & h1.title {
+    /* color: #fff;*/
+      margin: 0;
+      padding: 0px;
+      width: 420px;
+      min-width: 420px;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      word-spacing: 0.2em;
+      font-family: var(--font-mic);
+      background: -webkit-linear-gradient(right, #434DED 76%, #FF00FF 16%);  
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  & .descriptionwrapper {
+    & .description {
+      width: auto;
+      max-width: 300px;
+      & span {
+        color: #111;
+        font-size: var(--font-size-heading4);
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: var(--font-web);
+        font-style: normal;
+        background: -webkit-linear-gradient(#4E4EDD 50%, #8585FF 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+  
+  
+#header {
+  padding: 0px 15px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  }
+.mobile #header {
+  padding: 0px 15px;
+  padding-top: 0px;
+}
+  
+ .mobile #header-inner {
+  padding-left: 5px;
+  border-left: 5px #7474dd solid;
+  box-sizing: border-box;
+  & .titlewrapper {  
+    & h1.title {
+      width: 200px;
+      min-width: 200px;
+      font-size: var(--font-size-medium);
+      font-weight: bold;
+    }
+  }
+}
 
+.blog-posts .date-outer .date-posts .post-outer {
+ & .post-title.entry-title {
+   top: 15px;
+   left: 15px;
+   padding: 6px 0px;
+   margin: 0 0 10px 0px;
+   padding-left: 10px;
+   letter-spacing: 1px;
+   display: block;
+   position: relative;
+   font-weight: bold;
+   box-sizing: border-box;
+   width: calc(100% - 25px);
+   border-left: 5px #434DED solid;
+   font-family: var(--font-web);
+   background: #bff5c0;
+   border-top-right-radius: 2.5px;
+   border-bottom-right-radius: 2.5px;
+   font-size: var(--font-size-default);
+   }
+}
+.mobile .blog-posts .date-outer .date-posts .post-outer {
+  & .post-title.entry-title {
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: calc(100% - 0px);
+  }
+}
 
 
 /*==================================
