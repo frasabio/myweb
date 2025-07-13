@@ -58,6 +58,11 @@
 }
 .mobile * {margin:0;padding:0;box-sizing:border-box;}
 body #navbar {height: 65px;min-height: 65px;max-height: 65px;}
+body {
+& .content {
+  width: 100%;
+  }
+}
 body.mobile {
   width: 100%;
   max-width: 100%;
@@ -67,6 +72,7 @@ body.mobile {
   flex-direction: column;
   position: relative;
   & .content {
+    width: 100%;
     overflow: hidden;
     margin-top: 10px;
     border-radius: 10px;
