@@ -355,8 +355,51 @@ header + div.tabs-outer {
   }
   /*=Deskrip=*/
 }
-  
-  
+
+#header-inner {
+    & .descriptionwrapper {
+      text-align: left;
+      padding: 0px 0px;
+    & .description {
+      width: auto;
+      width: calc(100% - 70px);
+      padding: 5px 0px;
+      padding-left: 7.5px;
+       min-height: 40px;
+       box-sizing: border-box;
+      background: #767EEB;
+      position: relative;
+      border-left: 5px #767EEB solid;
+      &:before {
+        content: "";
+        width: 40px;
+        min-height: 40px;
+        position: absolute;
+        right: -30px;
+        top: 0px;
+        background: #ff00ff;
+        transform: skewX(-26deg);
+      }
+      & span {       
+        font-size: 1.2em;
+        font-weight: 500;
+        line-height: 1.5;
+        font-family: var(--font-web);
+        font-style: normal;
+        background: -webkit-linear-gradient(#eeffff 50%, #ffffff 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+.mobile #header-inner {
+    & .descriptionwrapper {
+    & .description {
+      border-left: 0px #FF00FF solid;
+      }
+   }
+  }
 #header {
   padding: 0px 15px;
   padding-top: 0px;
