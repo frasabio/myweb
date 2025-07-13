@@ -7,6 +7,7 @@
   /* Latar Color */
   --bg-color-card: #E6E6ff;
   --bg-color-view: #F0F0FC;
+  --bg-color-list: #EEEFFF;
   --bg-color-bars: #EEFFFF;
   
   /* Text Color */
@@ -275,7 +276,7 @@ header + div.tabs-outer {
   font-weight: 600;
   font-family: var(--font-mic);
   color: var(--text-color-default);
-  background-color: var(--bg-color-card);
+  background-color: var(--bg-color-list);
   flex: 1;
   -webkit-appearance:none;
    -moz-appearance:none;
