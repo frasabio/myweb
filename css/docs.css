@@ -351,6 +351,7 @@ header + div.tabs-outer {
       background: -webkit-linear-gradient(right, #434DED 76%, #FF00FF 16%);  
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      text-shadow: 1.5px 1.5px 6px rgba(67,78, 237,0.8);
     }
   }
   /*=Deskrip=*/
