@@ -353,23 +353,7 @@ header + div.tabs-outer {
       -webkit-text-fill-color: transparent;
     }
   }
-  & .descriptionwrapper {
-    & .description {
-      width: auto;
-      max-width: 300px;
-      & span {
-        color: #111;
-        font-size: var(--font-size-heading4);
-        font-weight: 500;
-        line-height: 1.5;
-        font-family: var(--font-web);
-        font-style: normal;
-        background: -webkit-linear-gradient(#4E4EDD 50%, #8585FF 50%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-  }
+  /*=Deskrip=*/
 }
   
   
