@@ -231,7 +231,10 @@ header + div.tabs-outer {
   }
 .mobile header + div.tabs-outer {
   padding: 0px 0px;
-  margin: 0px 10px 30px 10px;
+  margin: 0px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #eeffff;
+  border: 3px var(--line-color-default) solid;
  }
 .mobile .tabs-outer .region-inner.tabs-inner #crosscol,
 .mobile .tabs-outer .region-inner.tabs-inner .tabs.section { 
