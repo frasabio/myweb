@@ -185,7 +185,7 @@ body.mobile .contenfl .post .post-body  {
 .mobile #PageList2 .widget-content,
 .mobile #PageList3 .widget-content {
   outline: none;
-  border: 1px #434DED solid;
+  border: 1px #767EEB solid;
   overflow: hidden;
   background-color: var(--bg-color-card);
   box-shadow: 1px 1px 1px 1.5px rgba(118,126,235,0.4);
