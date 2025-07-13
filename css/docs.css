@@ -171,7 +171,51 @@ body.mobile .contenfl .post .post-body  {
 /*==================================
  Menu Select
 ==================================*/
+.mobile .content #PageList1 .widget-content {
+  margin-right: 5px;
+  }
+.mobile #PageList1 .widget-content,
+.mobile #PageList2 .widget-content,
+.mobile #PageList3 .widget-content {
+  outline: none;
+  border: 1px #434DED solid;
+  overflow: hidden;
+  background-color: var(--bg-color-card);
+  box-shadow: 1px 1px 1px 1.5px rgba(118,126,235,0.4);
+  }
+.mobile #PageList1 .widget-content select,
+.mobile #PageList2 .widget-content select,
+.mobile #PageList3 .widget-content select {
+  font-weight: 500;
+  font-family: var(--font-mic);
+  color: var(--text-color-default);
+  background-color: var(--bg-color-card);
+}
 
+.mobile .content #PageList1 .widget-content::after,
+.mobile .content #PageList2 .widget-content::after,
+.mobile .content #PageList3 .widget-content::after {
+  content: "🚀";
+  top: 1.5px;
+  right: 1.5px;
+  z-index: 10;
+  width: 35px;
+  height: 35px;
+  padding: 2px 2px;
+  max-width: 35px;
+  max-height: 35px;
+  border-radius: 2.5px;
+  background: #d2e9fa;
+  position: absolute;
+  border: 0.5px #d2fae1 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor:pointer;
+  pointer-events:none;
+  transition:.25s all ease;
+ }
 
 
 
