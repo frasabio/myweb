@@ -276,6 +276,7 @@ header + div.tabs-outer {
   font-family: var(--font-mic);
   color: var(--text-color-default);
   background-color: var(--bg-color-card);
+  flex: 1;
   -webkit-appearance:none;
    -moz-appearance:none;
    -ms-appearance:none;
