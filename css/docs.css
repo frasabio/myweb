@@ -427,9 +427,9 @@ header + div.tabs-outer {
 
 .blog-posts .date-outer .date-posts .post-outer {
  & .post-title.entry-title {
-   top: 15px;
+   top: 0px;
    left: 15px;
-   padding: 6px 0px;
+   padding: 10px 0px;
    margin: 0 0 10px 0px;
    padding-left: 10px;
    letter-spacing: 1px;
