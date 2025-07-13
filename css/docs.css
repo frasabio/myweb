@@ -218,6 +218,109 @@ body.mobile .contenfl .post .post-body  {
  }
 
 
+header + div.tabs-outer {
+  width: auto;
+  padding: 0px 15px;
+  margin: 0px 0px 10px 0px;
+  border-radius: 0px;
+  max-height: auto; 
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  border-top: 3px var(--line-color-default) solid;
+  border-bottom: 3px var(--line-color-default) solid;
+  }
+.mobile header + div.tabs-outer {
+  padding: 0px 0px;
+  margin: 0px 10px 30px 10px;
+ }
+.mobile .tabs-outer .region-inner.tabs-inner #crosscol,
+.mobile .tabs-outer .region-inner.tabs-inner .tabs.section { 
+  padding: 0;
+  display: grid;
+  grid-template-areas:
+  "left left right"
+  "center center center";
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+  /*background-color: #f0f0fc;*/
+  padding: 10px 10px;
+  & .widget-content select {
+    outline: none;
+    margin: 0;
+    }
+  }
+  
+.mobile #crosscol > #PageList1 {
+  grid-area: left;}
+.mobile #crosscol > #PageList2 {
+  grid-area: right;}
+.mobile #crosscol > #PageList3 {
+  grid-area: center;}
+  #PageList1_select,
+  #PageList2_select,
+  #PageList3_select {
+    margin: 0px 0px;
+    padding: 5px;
+    box-sizing: border-box;
+ }
+  
+.mobile #PageList1,
+.mobile #PageList2,
+.mobile #PageList3  {
+  padding: 0px 0px;
+}
+  
+.mobile #PageList1 .widget-content select,
+.mobile #PageList2 .widget-content select,
+.mobile #PageList3 .widget-content select {
+   -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   border: 0px #111 solid;
+   background-color: #eeffff;
+   background-image: none;
+   flex: 1;
+   padding: 0 0.5em;
+   color: var(--font-color-title);
+   cursor:pointer;
+   font-size: 1.1em;
+   font-family: 'Open Sans', sans-serif;
+}
+.mobile #PageList1 .widget-content select::-ms-expand,
+.mobile #PageList2 .widget-content select::-ms-expand,
+.mobile #PageList3 .widget-content select::-ms-expand {
+   display: none;
+}
+.mobile #PageList1 .widget-content,
+.mobile #PageList2 .widget-content,
+.mobile #PageList3 .widget-content {
+   position: relative;
+   display: flex;
+   width: auto;
+   height: 40px;
+   line-height: 3;
+   background: #5c6664;
+   overflow: hidden;
+   border-radius: .25em;
+   margin: 5px 0px;
+   padding: 0px;
+  
+}
+.mobile #PageList1 .widget-content::after,
+.mobile #PageList2 .widget-content::after,
+.mobile #PageList3 .widget-content::after {
+   
+}
+.mobile #PageList1 .widget-content:hover::after,
+.mobile #PageList2 .widget-content:hover::after,
+.mobile #PageList3 .widget-content:hover::after {
+   background-color: #eeffff;
+}
+
 
 
 
