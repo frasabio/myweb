@@ -183,14 +183,6 @@ body.mobile .contenfl .post .post-body  {
   background-color: var(--bg-color-card);
   box-shadow: 1px 1px 1px 1.5px rgba(118,126,235,0.4);
   }
-.mobile #PageList1 .widget-content select,
-.mobile #PageList2 .widget-content select,
-.mobile #PageList3 .widget-content select {
-  font-weight: 500;
-  font-family: var(--font-mic);
-  color: var(--text-color-default);
-  background-color: var(--bg-color-card);
-}
 
 .mobile .content #PageList1 .widget-content::after,
 .mobile .content #PageList2 .widget-content::after,
@@ -270,26 +262,25 @@ header + div.tabs-outer {
 .mobile #PageList3  {
   padding: 0px 0px;
 }
-  
 .mobile #PageList1 .widget-content select,
 .mobile #PageList2 .widget-content select,
 .mobile #PageList3 .widget-content select {
-   -webkit-appearance:none;
+  cursor:pointer;
+  font-weight: 600;
+  font-family: var(--font-mic);
+  color: var(--text-color-default);
+  background-color: var(--bg-color-card);
+  -webkit-appearance:none;
    -moz-appearance:none;
    -ms-appearance:none;
    appearance:none;
    outline:0;
    box-shadow:none;
-   border: 0px #111 solid;
-   background-color: #eeffff;
-   background-image: none;
-   flex: 1;
-   padding: 0 0.5em;
-   color: var(--font-color-title);
-   cursor:pointer;
-   font-size: 1.1em;
-   font-family: 'Open Sans', sans-serif;
 }
+.mobile .region-inner.header-inner {
+  padding: 5px 0px;
+}
+
 .mobile #PageList1 .widget-content select::-ms-expand,
 .mobile #PageList2 .widget-content select::-ms-expand,
 .mobile #PageList3 .widget-content select::-ms-expand {
