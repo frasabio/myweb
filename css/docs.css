@@ -438,7 +438,7 @@ header + div.tabs-outer {
 .blog-posts .date-outer .date-posts .post-outer {
  & .post-title.entry-title {
    top: 0px;
-  /* left: 15px;*/
+   left: 15px;
    width: auto;
    padding: 7.5px 0px;
    margin: 0 15px 10px 15px;
@@ -466,7 +466,7 @@ header + div.tabs-outer {
     top: 0px;
     left: 0px;
     z-index: 100;
-    margin-left: 15px;
+    margin: 0px 0px 0px 0px;
     width: calc(100% - 0px);
   }
 }
