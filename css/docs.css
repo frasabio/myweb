@@ -439,7 +439,8 @@ header + div.tabs-outer {
  & .post-title.entry-title {
    top: 0px;
    left: 15px;
-   width: auto;
+   /*width: auto;*/
+   font-size: 1.5em;
    padding: 7.5px 0px;
    margin: 0 15px 10px 15px;
    padding-left: 10px;
@@ -450,14 +451,13 @@ header + div.tabs-outer {
    text-transform: uppercase;
    box-shadow: 2px 2px 3px #999;
    box-sizing: border-box;
-   width: calc(100% - 30px);
+   width: calc(100% - 33px);
    border-left: 3px #767EEB solid;
    font-family: var(--font-web);
    background: var(--bg-color-view);
    border-radius: 5px 2.5px 2.5px 5px;
   /* border-top-right-radius: 2.5px;
    border-bottom-right-radius: 2.5px;*/
-   font-size: 1.5em;
    color: var(--font-color-default);
    }
 }
