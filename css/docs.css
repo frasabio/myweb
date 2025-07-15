@@ -468,7 +468,7 @@ header + div.tabs-outer {
     left: 0px;
     z-index: 100;
     margin: 0px 0px 0px 0px;
-    width: calc(100% - 0px);
+    width: calc(100% - 3px);
   }
 }
 
