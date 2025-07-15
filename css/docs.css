@@ -514,6 +514,91 @@ header + div.tabs-outer {
 /*==================================
  Top List
 ==================================*/
+.top-list {
+  width: 100%;
+  max-width: 1000px;
+  height: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-color-list);
+  margin: 0px;
+  margin-top: 15px;
+  padding: 9.5px 10px;
+  border-radius: var(--size-radius-default);
+  box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  position: relative;
+  & .Tpost {
+     margin:0;
+     padding:0;
+     height: 31px;
+     min-height: 31px;
+     display: flex;
+     align-items: center;
+     & a, & button {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        min-height: 30px;
+        outline: 0px #ccc solid;;
+        border: 0.5px #ccc solid;
+        background: #eeefff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(238,255,255,0.7);
+      /*background: var(--bg-color-boxs);*/
+        &:hover, &:focus {
+           transition: 0.2s;
+           border: 0.5px #767EEB solid;
+           background-color: rgba(238,255,255,0.9);
+        }
+        & svg {
+          width: 20px;
+          height: 20px;
+          min-width: 20px;
+          min-height: 20px;
+          max-width: 20px;
+          max-height: 20px;
+        }
+      }
+    }
+    & .post-list-click {
+       width: 140px;
+       max-width: 140px;
+       min-width: 140px;
+       flex-direction: row;
+       justify-content: start;
+       & button {
+         margin: 0 auto 0 0;
+         border-radius: 2.5px;
+       }
+    }
+    & .post-list-widget {
+       flex-direction: row;
+       justify-content: end;
+       width: 73px;
+       min-width: 73px;
+       max-width: 73px;
+       & button {
+         margin: 0 auto 0 0;
+         border-radius: 50%;
+         border: 0.5px transparent solid;
+         background-color: transparent;
+       }
+       & a {
+         border-radius: 2.5px;
+          & svg {
+             width: 20px;
+             height: 20px;
+          }
+       }
+   }
+}
 
 .post-list-linkurl {
   width: calc(100% - 205px);
@@ -572,40 +657,7 @@ header + div.tabs-outer {
   border: 0.5px #434DED solid;
   }
 .top-list {
-  width: 100%;
-  max-width: 1000px;
-  height: 50px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--bg-color-view);
-  margin: 0px 10px;
-  padding: 5px 5px;
-  border-radius: var(--size-radius-default);
   & .post-list-click {
-      width: 140px;
-      display: flex;
-      align-items: center;
-      justify-content: start;
-    & button {
-      width: 30px;
-      height: 30px;
-      min-width: 30px;
-      min-height: 30px;
-      border-radius: 2.5px;
-      margin: 0 auto 0 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 0.5px var(--line-color-default) solid;
-      background: var(--bg-color-view);
-      }
-      & svg {
-        width: 20px;
-        height: 20px;
-        fill: none;
-      }
     }
     & .post-list-user {
       & .user {
@@ -614,7 +666,7 @@ header + div.tabs-outer {
         width: var(--size);
         min-height: var(--size);
         min-width: var(--size);
-        border: 0.5px #434DED solid;
+        border: 0.5px #767EEB solid;
         background: var(--bg-color-view);
         border-radius: 50%;
         margin: 0 0;
@@ -629,25 +681,9 @@ header + div.tabs-outer {
       }
   }
   & .post-list-widget {
-      & button {
-      width: 30px;
-      height: 30px;
-      border: 0.5px var(--line-color-default) solid;
-      background: var(--bg-color-view);
-      border-radius: 2.5px;
-      margin: 0 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      & svg {
-        width: 20px;
-        height: 20px;
-      }
-    }
   }
 }
 .mobile .top-list {
-  margin: 0px 0px;
   & .post-list-user {
     & .user {
     display: flex;
@@ -689,14 +725,10 @@ header + div.tabs-outer {
 }
 
 .mobile .top-list {
-  margin: 0px 0px;
+
 }
 .mobile .top-list {
-  margin: 8px 0px;
-  width: 100%;
-  padding: 5px 10px;
-  box-sizing: border-box;
-  position: relative;
+
 }
 .mobile .post-list-linkurl {
   display: none;
