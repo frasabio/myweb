@@ -574,14 +574,14 @@ header + div.tabs-outer {
 .top-list {
   width: 100%;
   max-width: 1000px;
-  height: auto;
+  height: 50px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: var(--bg-color-view);
-  margin: 8px 10px;
-  padding: 5px 10px;
+  margin: 0px 10px;
+  padding: 5px 5px;
   border-radius: var(--size-radius-default);
   & .post-list-click {
       width: 140px;
@@ -647,6 +647,7 @@ header + div.tabs-outer {
   }
 }
 .mobile .top-list {
+  margin: 0px 0px;
   & .post-list-user {
     & .user {
     display: flex;
