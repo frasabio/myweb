@@ -5,12 +5,14 @@
   --font-nun: 'Nunito' , sans-serif;
  
   /* Latar Color */
-  --bg-color-primary: #767EEB;
   --bg-color-card: #E6E6ff;
-  --bg-color-view: #F0F0FC;
+  --bg-color-bars: #F0F0FC;
+  --bg-color-view: #F3F6FD;
   --bg-color-list: #EEEFFF;
   --bg-color-bars: #EEFFFF;
   --bg-color-active: #CCFCCF;
+  --bg-color-primary: #767EEB;
+  
   /* Text Color */
   --text-color-default: #1C274C;
   --text-color-primary: #1C274C;
@@ -442,7 +444,7 @@ header + div.tabs-outer {
    width: calc(100% - 25px);
    border-left: 5px #767EEB solid;
    font-family: var(--font-web);
-   background: #F3F6FD;
+   background: var(--bg-color-view);
    border-top-right-radius: 2.5px;
    border-bottom-right-radius: 2.5px;
    font-size: 1.5em;
