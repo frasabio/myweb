@@ -428,25 +428,35 @@ header + div.tabs-outer {
     }
   }
 }
-
+.blog-posts .date-outer .date-posts .post-outer {
+   & .post-title.entry-title::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+    color: #1f2937;
+  }
+}
 .blog-posts .date-outer .date-posts .post-outer {
  & .post-title.entry-title {
    top: 0px;
-   left: 15px;
+  /* left: 15px;*/
+   width: auto;
    padding: 10px 0px;
-   margin: 0 0 10px 0px;
+   margin: 0 10px 10px 10px;
    padding-left: 10px;
    letter-spacing: 1px;
    display: block;
    position: relative;
-   font-weight: bold;
+   font-weight: 400;
+   text-transform: uppercase;
+   box-shadow: 2px 2px 3px #999;
    box-sizing: border-box;
-   width: calc(100% - 25px);
-   border-left: 5px #767EEB solid;
+  /* width: calc(100% - 25px);*/
+   border-left: 3px #767EEB solid;
    font-family: var(--font-web);
    background: var(--bg-color-view);
-   border-top-right-radius: 2.5px;
-   border-bottom-right-radius: 2.5px;
+   border-radius: 5px 2.5px 2.5px 5px;
+  /* border-top-right-radius: 2.5px;
+   border-bottom-right-radius: 2.5px;*/
    font-size: 1.5em;
    color: var(--font-color-default);
    }
