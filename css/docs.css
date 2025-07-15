@@ -167,7 +167,7 @@ body .content .post .post-body  {
   width: 100%;
   min-height: calc(100vh - 50vh);
 }
-body.mobile .contenfl .post .post-body  {
+body.mobile .content .post .post-body  {
   width: 100%;
   min-height: calc(100vh - 50vh);
 }
@@ -440,10 +440,11 @@ header + div.tabs-outer {
    width: calc(100% - 25px);
    border-left: 5px #767EEB solid;
    font-family: var(--font-web);
-   background: #EEFFFF;
+   background: #F3F6FD;
    border-top-right-radius: 2.5px;
    border-bottom-right-radius: 2.5px;
-   font-size: var(--font-size-default);
+   font-size: 1.5em;
+   color: var(--font-color-default);
    }
 }
 .mobile .blog-posts .date-outer .date-posts .post-outer {
