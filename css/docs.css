@@ -9,7 +9,7 @@
   --bg-color-bars: #F0F0FC;
   --bg-color-view: #F3F6FD;
   --bg-color-list: #EEEFFF;
-  --bg-color-bars: #EEFFFF;
+  --bg-color-boxs: #EEFFFF;
   --bg-color-active: #CCFCCF;
   --bg-color-primary: #767EEB;
   
@@ -442,7 +442,7 @@ header + div.tabs-outer {
    /*width: auto;*/
    font-size: 1.5em;
    padding: 7.5px 0px;
-   margin: 0 15px 10px 15px;
+   margin: 0px 0px 10px 0px;
    padding-left: 10px;
    letter-spacing: 1px;
    display: block;
@@ -456,6 +456,7 @@ header + div.tabs-outer {
    font-family: var(--font-web);
    background: var(--bg-color-view);
    border-radius: 5px 2.5px 2.5px 5px;
+   box-sizing: border-box;
   /* border-top-right-radius: 2.5px;
    border-bottom-right-radius: 2.5px;*/
    color: var(--font-color-default);
@@ -478,7 +479,7 @@ header + div.tabs-outer {
 .section-fixed-top-box  {
   top: 0px;
   left: 0px;
-  padding: 0px 10px;
+  padding: 5px 5px;
   z-index: 700;
   width: 100%;
   height: 60px;
@@ -487,16 +488,16 @@ header + div.tabs-outer {
   position: fixed;
   background-color: var(--bg-color-bars);
   box-sizing: border-box;
-  border-bottom: 0.5px var(--var-color-line) solid;
+  border-bottom: 0.5px var(--line-color-primary) solid;
   box-shadow:0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
   }
 .section-fixed-bottom-box {
   left: 0px;
   bottom: 0px;
-  padding: 0px 10px;
+  padding: 2.5px 2.5px;
   z-index: 700;
   width: 100%;
-  height: 50px;
+  height: 55px;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -578,7 +579,7 @@ header + div.tabs-outer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--bg-color-card);
+  background: var(--bg-color-view);
   margin: 8px 10px;
   padding: 5px 10px;
   border-radius: var(--size-radius-default);
