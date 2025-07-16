@@ -430,7 +430,7 @@ header + div.tabs-outer {
 }
 .blog-posts .date-outer .date-posts .post-outer {
    & .post-title.entry-title::first-letter {
-    font-size: 120%;
+    font-size: 130%;
     font-weight: bold;
     color: #1f2937;
   }
@@ -440,8 +440,8 @@ header + div.tabs-outer {
    top: 0px;
    left: 15px;
    /*width: auto;*/
-   font-size: 1.5em;
-   padding: 7.5px 0px;
+   font-size: 1.4em;
+   padding: 0px 0px;
    margin: 0px 0px 10px 0px;
    padding-left: 10px;
    letter-spacing: 1px;
