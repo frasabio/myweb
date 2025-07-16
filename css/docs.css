@@ -544,7 +544,7 @@ header + div.tabs-outer {
         height: 30px;
         min-width: 30px;
         min-height: 30px;
-        outline: 0px #ccc solid;;
+        outline: 0px #ccc solid;
         border: 0.5px #ccc solid;
         background: #eeefff;
         display: flex;
@@ -568,9 +568,9 @@ header + div.tabs-outer {
       }
     }
     & .post-list-click {
-       width: 140px;
-       max-width: 140px;
-       min-width: 140px;
+       width: 110px;
+       max-width: 110px;
+       min-width: 110px;
        flex-direction: row;
        justify-content: start;
        & button {
@@ -600,6 +600,13 @@ header + div.tabs-outer {
    }
 }
 
+.mobile .top-list {
+  & .post-list-click {
+    width: 140px;
+    max-width: 140px;
+    min-width: 140px;
+  }
+}
 .post-list-linkurl {
   width: calc(100% - 205px);
   height: 26px;
