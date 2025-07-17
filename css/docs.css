@@ -876,7 +876,8 @@ header + div.tabs-outer {
       & svg {
         width: 15px;
         height: 15px;
-        margin: 0px 10px;
+        margin: 0px 0px;
+        margin-right: 5px;
       }
     }
   }
