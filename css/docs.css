@@ -94,21 +94,17 @@ body.mobile {
   padding-bottom: 70px;
   position: relative;
  }
-header .header-outer {
-  margin-bottom: 20px;
-  }
 
 
 body .content .post-body,
 body.mobile .content .post-body {
-  & :is(h1,h2,h3,h4,h5,h6){
+  & :is(h1,h2,h3,h4,h5,h6,p,ul li,ol li,){
     color: var(--text-color-primary);
     }
   & * {
     line-height: 1.5;
     font-family: "Titillium Web", sans-serif;
     font-size: var(--font-size-default);
-    color: var(--text-color-primary);
     }
   & h1 {
    font-size: var(--font-size-heading1);
@@ -229,7 +225,6 @@ header + div.tabs-outer {
   max-height: auto; 
   background-color: transparent;
   position: relative;
-  overflow: hidden;
   border-top: 3px var(--line-color-default) solid;
   border-bottom: 3px var(--line-color-default) solid;
   }
