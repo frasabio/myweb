@@ -428,7 +428,7 @@ header + div.tabs-outer {
    & .post-title.entry-title::first-letter {
     font-size: 130%;
     font-weight: bold;
-    color: #1f2937;
+    color: var(--font-color-first);
   }
 }
 .blog-posts .date-outer .date-posts .post-outer {
@@ -439,7 +439,7 @@ header + div.tabs-outer {
    font-size: 1.4em;
    padding: 0px 0px;
    margin: 0px 0px 10px 0px;
-   padding-left: 10px;
+   padding-left: 15px;
    letter-spacing: 1px;
    display: block;
    position: relative;
@@ -447,10 +447,10 @@ header + div.tabs-outer {
    text-transform: uppercase;
    box-sizing: border-box;
    width: calc(100% - 33px);
-   border-left: 3px #767EEB solid;
+   border-left: 3px #8A2BE2 solid;
    font-family: var(--font-web);
- /*  background: var(--bg-color-view);*/
-   border-radius: 5px 2.5px 2.5px 5px;
+ /*  background: var(--bg-color-view);
+   border-radius: 5px 2.5px 2.5px 5px;*/
    box-sizing: border-box;
   /* border-top-right-radius: 2.5px;
    border-bottom-right-radius: 2.5px;*/
