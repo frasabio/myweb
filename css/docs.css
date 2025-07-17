@@ -444,12 +444,11 @@ header + div.tabs-outer {
    position: relative;
    font-weight: 400;
    text-transform: uppercase;
-   box-shadow: 2px 2px 3px #999;
    box-sizing: border-box;
    width: calc(100% - 33px);
    border-left: 3px #767EEB solid;
    font-family: var(--font-web);
-   background: var(--bg-color-view);
+ /*  background: var(--bg-color-view);*/
    border-radius: 5px 2.5px 2.5px 5px;
    box-sizing: border-box;
   /* border-top-right-radius: 2.5px;
