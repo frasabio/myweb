@@ -1,0 +1,12 @@
+
+
+body {
+  & .columns-inner {
+    & .column-center-outer {
+      background-color: var(--bg-color-trans);
+      & .column-center-inner {
+        
+      }
+    }
+  }
+}
