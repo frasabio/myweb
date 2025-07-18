@@ -334,9 +334,41 @@ header + div.tabs-outer {
 /*==================================
  Post Title
 ==================================*/
+.mobile {
+  & :is(.fauxborder-left,.header-fauxborder-left) {
+  & .header-inner #header #Header1 {
+    padding: 0px;
+    padding-left: 15px;
+    border-left: 0px #7474dd solid;
+    box-sizing: border-box;
+    &:before {
+      content:"";
+      top: 0;
+      left: 0;
+      width: 7px;
+      height: 100%;
+      position: absolute;
+      background: #8A2BE2;
+      border-radius: 0px 25px 25px 0px;
+      box-shadow: 1px 2px 7px #767eeb;
+    }
+    & #header-inner {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}  
+ /* Mobile Media */
+ @media (min-width: 641px) {
+  
+ }
+ @media (max-width: 640px) {
+  
+ } /*mobile media end*/
+ 
+}
+
 #header-inner {
-  padding-left: 35px;
-  box-sizing: border-box;
   & .titlewrapper {
     & h1.title {
     /* color: #fff;*/
