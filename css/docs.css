@@ -900,6 +900,21 @@ header + div.tabs-outer {
     }
   }
 }
+
+
+/*==================================
+Post Body Mobile
+==================================*/
+body.mobile {
+  & .columns-inner {
+    & .column-center-outer {
+      background-color: var(--bg-color-view);
+      & .column-center-inner {
+        
+      }
+    }
+  }
+}
 /*==================================
  Blog Pager 
 ==================================*/
