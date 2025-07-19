@@ -130,6 +130,23 @@ body.mobile .content .post-body {
    font-size: var(--font-size-default);
   }
 }
+
+
+
+.docsmars {
+  & :is(h1,h2,h3,h4,h5,h6){
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  & p {
+     margin-top: 10px;
+     margin-bottom: 25px;
+  }
+  & ul {
+     position: relative;
+     margin-bottom: 35px;
+  }
+}
 /*==================================
  Component Css
 ==================================*/
