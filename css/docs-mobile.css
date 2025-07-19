@@ -935,6 +935,52 @@ body.mobile {
 /*==================================
  Blog Pager 
 ==================================*/
+#backtotop {
+display: inline-block;
+background-color: rgba(61,90,254,0.7);
+width: 40px;
+height: 40px;
+bottom: 60px;
+margin-left: 15px;
+text-align: center;
+border-radius: 5px;
+position: fixed;
+transition: background-color .3s, 
+opacity .5s, visibility .5s;
+opacity: 0;
+visibility: hidden;
+z-index: 80;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#backtotop::after {
+content: "\f0aa";
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+font-size: 20px;
+line-height: 40px;
+color: #fff;
+
+}
+#backtotop:hover {
+cursor: pointer;
+opacity: 0.5;
+background-color: rgba(61,90,254,0.9);
+}
+#backtotop:active {
+ background-color: #767EEB;
+}
+#backtotop.show {
+opacity: 1;
+visibility: visible;
+}
+.mobile #backtotop {
+  left: 10px;
+  margin-left: 0px;
+}
+
+
+
 body #blog-pager {
   & .mobile-desktop-link,
   & .blog-mobile-link {
