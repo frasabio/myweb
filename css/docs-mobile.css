@@ -946,7 +946,7 @@ body #blog-pager {
     position: fixed;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     background-color: rgba(61,90,254,0.7);
     &:hover {
       background-color: rgba(61,90,254,0.9);
