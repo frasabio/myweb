@@ -853,6 +853,7 @@ header + div.tabs-outer {
   flex-direction: column;
   background: var(--bg-color-view);
   padding: 10px 10px;
+  padding-bottom: 0px;
   border-radius: 5px;
   & ul.column-content {
     width: 100%;
@@ -900,7 +901,7 @@ header + div.tabs-outer {
   display:flex;
   align-items: center;
   justify-content: start;
-  flex-direction: row;
+  flex-direction: space-between;
   margin: 0px 0px;
   padding: 5px 0px;
   & a#linkedit,
