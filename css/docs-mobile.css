@@ -900,8 +900,8 @@ header + div.tabs-outer {
   height: 25px;
   display:flex;
   align-items: center;
-  justify-content: start;
-  flex-direction: space-between;
+  justify-content: space-between;
+  flex-direction: row;
   margin: 0px 0px;
   padding: 2.5px 0px;
   & a#linkedit,
