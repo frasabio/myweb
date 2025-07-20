@@ -836,11 +836,13 @@ header + div.tabs-outer {
     padding: 0;
     width: 200px;
     height: 300px;
-    max-height: calc(100% - 90px);
     display: block;
     position: fixed;
     overflow: hidden;
     transition: 0.7s;
+    border-radius: 5px;
+    max-height: calc(100% - 90px);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
     & .menu__overlay {
       display: flex;
       }
