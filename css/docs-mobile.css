@@ -809,7 +809,7 @@ header + div.tabs-outer {
     overflow: hidden;
     transition: 0.7s;
     @media (max-width: 1007px){
-      right: 0px;
+      right: 10px;
      }
     & .menu__overlay {
       top: 60px;
