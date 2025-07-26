@@ -790,17 +790,17 @@ header + div.tabs-outer {
   }
   & .column-box-bars {
     top: 80px;
-    margin-left: calc(95% - 200px);
-   /* right: auto;*/
-    margin-right: 10px;
     z-index: -10;
     padding: 0;
-    width: 300px;
+    width: 250px;
     height: 0px;
     display: block;
     position: absolute;
     overflow: hidden;
     transition: 0.7s;
+    @media (max-width: 1007px){
+      right: 0px;
+     }
     & .menu__overlay {
       top: 60px;
       left:0;
@@ -832,7 +832,7 @@ header + div.tabs-outer {
     top: 80px;
     z-index: 10;
     padding: 0;
-    width: 300px;
+    width: 250px;
     height: 300px;
     display: block;
     position: fixed;
