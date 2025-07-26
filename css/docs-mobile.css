@@ -514,12 +514,13 @@ header + div.tabs-outer {
 .section-fixed-top-box  {
   top: 0px;
   padding: 5px 5px;
-  z-index: 700;
   width: 100%;
   height: 60px;
   display: flex;
-  justify-content: center;
-  position: fixed;
+  align-items: center;
+  justify-content: end;
+  max-width: 1007px;
+  position: relative;
   background-color: var(--bg-color-primary);
   box-sizing: border-box;
   border-bottom: 0.5px var(--line-color-primary) solid;
