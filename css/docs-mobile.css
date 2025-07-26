@@ -511,6 +511,16 @@ header + div.tabs-outer {
 /*==================================
  Section Fixed Box
 ==================================*/
+.section-navigasi-fixed {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
 .section-fixed-top-box  {
   top: 0px;
   padding: 5px 5px;
