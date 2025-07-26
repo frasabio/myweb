@@ -64,6 +64,15 @@
 }
 .mobile * {margin:0;padding:0;box-sizing:border-box;}
 body #navbar {height: 65px;min-height: 65px;max-height: 65px;}
+.post-body img { 
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0px #fff solid;
+  box-shadow: none;
+  transition: 0.5s;
+}
 body {
 & .content {
   width: 100%;
