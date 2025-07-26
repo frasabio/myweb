@@ -513,7 +513,6 @@ header + div.tabs-outer {
 ==================================*/
 .section-fixed-top-box  {
   top: 0px;
-  left: 0px;
   padding: 5px 5px;
   z-index: 700;
   width: 100%;
