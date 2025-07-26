@@ -975,16 +975,7 @@ visibility: hidden;
 z-index: 80;
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-#backtotop::after {
-content: "\f0aa";
-font-family: FontAwesome;
-font-weight: normal;
-font-style: normal;
-font-size: 20px;
-line-height: 40px;
-color: #fff;
 
-}
 #backtotop:hover {
 cursor: pointer;
 opacity: 0.5;
