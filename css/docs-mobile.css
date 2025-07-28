@@ -1138,6 +1138,7 @@ body #blog-pager {
 
 .mobile #blog-pager #blog-pager-home-link {
   height: 50px;
+  display: none;
   border-radius: 2.5px;
   background-color: transparent;
   & a {
