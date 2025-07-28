@@ -104,10 +104,16 @@ body.mobile {
   padding-bottom: 70px;
   position: relative;
  }
+body.mobile #blog-pager {
+  /*margin: 0;
+  padding: 0;*/
+  height: 0px;
+  max-height: 0px;
+  overflow: hidden;
+}
 
-
-body .content .post-body,
-body.mobile .content .post-body {
+body .section-content,
+body.mobile .section-content {
   & :is(h1,h2,h3,h4,h5,h6,p,ul li,ol li,){
     color: var(--text-color-primary);
     }
