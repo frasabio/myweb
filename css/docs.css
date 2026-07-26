@@ -66,6 +66,34 @@ aside #sidebar-right-3 .widget-content {
   & ul li {list-style: none;}
 }
 
+/*== Section Content Wrapper ==*/
+.mobile section.section-content-wrapper {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  }
+section.section-content-wrapper {
+  margin: 0px 0px;
+  padding: 0px 15px;
+  display: block;
+  position: relative;
+  & > :is(h2,h3,h4,h5,h6) {
+    color: #111;
+    }
+  & > :is(p,ul,ol) {
+    color: #111;
+    font-size: 1.0em;
+    font-weight: 400;
+    }
+  & > p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+    }
+  & > ul,
+  & > ol {
+    line-height: 1.5;
+    margin-bottom: 25px;
+    }
+  }  
 
 #backtotop {
   padding: 0px;
