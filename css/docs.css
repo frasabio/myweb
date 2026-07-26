@@ -1,3 +1,9 @@
 .section-content {
   margin-top: 2em;
 }
+.columns-cell #sidebar-right-2-1 .widget-content,
+.columns-cell #sidebar-right-2-2 .widget-content,
+aside #sidebar-right-3 .widget-content {
+  & ul {list-style: none;}
+  & ul li {list-style: none;}
+}
